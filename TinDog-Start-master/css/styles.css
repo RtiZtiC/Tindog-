@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.ctah3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 0 10%;
+}
+
+.container-fluid {
+  padding: 3% 12% 6%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.titleimg {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 25%;
+  margin: 0;
+}
+
+#features {
+  text-align: center;
+  padding: 5% 7%;
+  background-color: #fff;
+  position: relative;
+  bottom: 250px;
+  z-index: 1;
+}
+
+.icons {
+  color: #ef8172;
+  padding-bottom: 1.2rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.slogs {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.slog-feats {
+  color: #8f8f8f;
+  padding: 3% 7%;
+}
+
+#testimonials {
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonialimage {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+  position: relative;
+  bottom: 250px;
+}
+
+.brandtestim {
+  width: 15%;
+  padding: 2% 2%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  position: relative;
+  bottom: 250px;
+  padding: 100px 100px 50px 100px;
+}
+
+.pricingcolumn {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleimg {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+#cta {
+  position: relative;
+  bottom: 250px;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 10% 3%;
+}
+
+#footer {
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  padding: 10% 0 0 0;
+}
+
+.iconfoot {
+  padding: .5% .5%;
+}
+
+.copyright {
+  padding-top: 1rem;
+}
